@@ -5,7 +5,7 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "",
+SESSION_ID: process.env.SESSION_ID || "MALVIN-XD~55pWkCJI#v0A1a83y5lNAcPsmFYBrOoh5gVyKeU40kwv6T_D9rIc",
 // add your Session Id 
 
 PREFIX: process.env.PREFIX || ".",
@@ -26,7 +26,7 @@ CUSTOM_REACT_EMOJIS: process.env.CUSTOM_REACT_EMOJIS || "💝,💖,💗,❤️�
 DELETE_LINKS: process.env.DELETE_LINKS || "false",
 // automatic delete links witho remove member 
 
-OWNER_NUMBER: process.env.OWNER_NUMBER || "263714757857",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "93787674575",
 // add your bot owner number
 
 OWNER_NAME: process.env.OWNER_NAME || "✦ᴍᴀʟᴠɪɴ ᴛᴇᴄʜ🪀✦",
@@ -56,10 +56,10 @@ ANTI_BAD: process.env.ANTI_BAD || "false",
 AUTO_STATUS_SEEN: process.env.AUTO_STATUS_SEEN || "true",
 // make true or false status auto seen
 
-AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "true",
+AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 // make true if you want auto reply on status 
 
-AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
+AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "false",
 // make true if you want auto react on status (still testing)
 
 AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀʟᴠɪɴ xᴅ v2🚀🔥*",
@@ -68,7 +68,7 @@ AUTO_STATUS_MSG: process.env.AUTO_STATUS_MSG || "*🎉👀 Status Seen by ᴍᴀ
 MODE: process.env.MODE || "public",
 // make bot public-private-inbox-group 
 
-ANTI_LINK: process.env.ANTI_LINK || "true",
+ANTI_LINK: process.env.ANTI_LINK || "false",
 // make anti link true,false for groups 
 
 AUTO_VOICE: process.env.AUTO_VOICE || "false",
